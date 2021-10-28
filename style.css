@@ -78,3 +78,11 @@
   input{
       border-radius: 15px;
   }
+
+  footer{
+    background-color: lightgray;
+    text-align: center;
+    position: static;
+     padding: 5px; 
+     border-radius: 15px;
+  }
