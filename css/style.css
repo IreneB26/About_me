@@ -49,9 +49,10 @@
   
   /* Content */
   .content {
-    background-color: lightblue;
+    background-color: #c1f7fa;
     padding: 10px;
     border-radius: 15px;
+    
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -70,7 +71,7 @@
 
   .formulario{
       text-align: center;
-      background-color: lightblue;
+      background-color: #c1f7fa;
       padding:20px;
       border-radius: 15px;
   }
@@ -98,5 +99,12 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+
+  .texnav2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-85%,70%);
     font-size: 50px;
   }
