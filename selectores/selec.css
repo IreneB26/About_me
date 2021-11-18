@@ -45,3 +45,37 @@ a:hover{
 }
 
 /* option + ñ = ~ */
+
+/* prioridades */
+
+p{
+    color: red;
+}
+
+p span{
+    color:green;
+}
+
+.foo{
+    color: yellow;
+}
+
+span.foo{
+    color: violet;
+}
+
+p span.foo{
+    color:turquoise;
+}
+
+.foo .bar{
+    color:brown;
+}
+
+p.bar span.foo{
+    color: darkblue;
+}
+
+#foo{
+    color: darkcyan;
+}
