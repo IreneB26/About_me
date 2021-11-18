@@ -1,0 +1,81 @@
+/* body */
+
+body{
+    background-color: grey;
+}
+
+/* links */
+
+.link1{
+    color: purple;
+}
+
+.link2{
+    color: orange;
+}
+
+a:visited{
+    color:turquoise;
+}
+
+.link2:visited{
+    color: yellowgreen;
+}
+
+a:hover{
+    color:tomato !important;
+}
+
+.link1:focus{
+    border:5px dotted black;
+}
+
+/* inputs */
+
+.texto:focus{
+    box-shadow: 0px 0px 5px 5px red;
+}
+
+.datos:focus{
+    box-shadow: 0px 0px 5px 5px blue; 
+}
+
+#checkbox:checked + p{
+ color: crimson;
+}
+
+/* option + ñ = ~ */
+
+/* prioridades */
+
+p{
+    color: red;
+}
+
+p span{
+    color:green;
+}
+
+.foo{
+    color: yellow;
+}
+
+span.foo{
+    color: violet;
+}
+
+p span.foo{
+    color:turquoise;
+}
+
+.foo .bar{
+    color:brown;
+}
+
+p.bar span.foo{
+    color: darkblue;
+}
+
+#foo{
+    color: darkcyan;
+}
